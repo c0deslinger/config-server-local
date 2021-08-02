@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: task-service
+  datasource:
+    url: jdbc:mysql://localhost:8889/java_microservice?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: root
+
+  jpa:
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8083
