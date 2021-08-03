@@ -1,0 +1,15 @@
+zuul:
+  prefix: /api
+  routes:
+    user-service:
+      path: /user-service/**
+      serviceId: user-service
+    task-service:
+      path: /task-service/**
+      serviceId: task-service
+
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
