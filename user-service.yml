@@ -16,15 +16,9 @@ spring:
 server:
   port: 8082
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
-
 application:
-  version: 1
-  
+  version: user-service-v1
+
 #task-service:
 #  ribbon:
 #    listOfServers: http://localhost:8083/,http://localhost:8085/

@@ -17,4 +17,4 @@ server:
   port: 8083
 
 application:
-  version: 1
+  version: task-service-v1
