@@ -17,7 +17,7 @@ server:
   port: 8082
 
 application:
-  version: user-service-v1
+  version: user-service-v3
 
 #task-service:
 #  ribbon:
